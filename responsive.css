@@ -1,0 +1,392 @@
+@media screen and (max-width:420px) {
+      .menu-container ul{
+            flex-direction: column;
+      }
+}
+
+@media screen and (max-width: 575px) {
+      .nav-container{
+            flex-direction: column;
+            gap: 10px;
+      }
+      .menu-container ul{
+            flex-direction: column;
+            gap: 15px;
+      }
+      /* banner section */
+      .banner-container{
+            flex-direction:column-reverse;
+      }
+      .banner-img-section{
+           width: 90%;
+      }
+      .banner-img-section img{
+            max-width: 100%;
+      }
+      .button{
+            padding-top: 60px;
+            padding: 10px 30px;
+      }
+      /* our game sectiuon */
+      .game-section{
+            flex-direction: column;
+           
+      }
+      .game-section{
+           
+      }
+      .gamer-img-section{
+            width: 100%; 
+      
+      }
+      .gamer-img-section img{
+         width: 100%; 
+      }
+      /* ============= */
+      .gamer-title-section{
+           
+      }
+      .gamer-title-section h1{
+            text-align: right;
+            font-family: Work Sans;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+      }
+      .gamer-title-section p{
+            color: #534C64;
+            text-align: right;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            padding: 15px 0;
+      }
+      .gamer-title-section span{
+          font-size: 25px;
+      }
+      /* video section */
+      .video-box-area{
+            flex-direction: column;
+      }
+      .video-section h1{
+            text-align: center;
+      }
+      .video-section p{
+            text-align: center;
+      }
+      .video-box-area{
+            padding-left: 25px;
+            row-gap: 20px;
+      }
+      .video-box{
+            gap: 20px;
+      }
+      /* =================######================================= */
+      .main-area{
+            flex-direction: column;
+      }
+      .main-area-title{
+            width: 100%;
+      }
+      .main-area-title h1{
+            text-align: center;
+            padding-top: 50px;
+      }
+      .main-area-title p{
+            text-align: center;
+            padding: 30px ;
+      }
+      .main-area-img{
+           
+      }
+      .main-area-img img{
+            width:100% ;
+            padding: 20px 30px;
+      }
+      /* ===================================playe section================= */
+      .play-game{
+            flex-direction: column-reverse;
+      }
+      .play-game-img img{
+            width: 100%;
+            padding: 10px;
+
+      }
+      .play-game-title{
+            text-align: center;
+            padding-bottom:60px ;
+      }
+      /* ======================================== */
+      .second-footer-section{
+            row-gap: 20px;
+            display: grid;
+            grid-template-columns: repeat(3 ,1fr);
+            padding-bottom: 50px;
+      }
+      .fooer-box{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            border-radius: 50px;
+            background: #FFF;
+            padding: 0 10px;
+            border: 2px solid #FFF;
+
+
+      }
+      .fooer-box:hover{
+            border: 2px solid #F948B2;
+
+      }
+      .fooer-box img{
+            width: 30%;
+      }
+      .third-box{
+            border: 2px solid #F948B2;
+      }
+      /* ================================================= */
+      footer{
+            text-align: center;
+      }
+  
+}
+
+
+
+/* =============================================================================     */
+@media screen and (min-width: 576px) and (max-width: 767px) {      
+}    
+ @media screen and (min-width: 768px) and (max-width: 991px) {
+} 
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+/* ==================================================================min-width: 1200px============== */
+@media screen and (min-width: 1200px) { 
+      
+      .button{
+            padding: 10px 30px;
+      }
+      .game-section{
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            gap: 30px;
+            align-items: center;     
+      }
+      .gamer-img-section{
+            width: 45%;
+      
+      }
+      .gamer-img-section img{
+            max-width: 100%;
+      } 
+       .gamer-title-section{
+            width: 45%;
+            text-align: end;
+      }
+      .gamer-title-section h1{
+            text-align: right;
+            font-family: Work Sans;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+      }
+      .gamer-title-section p{
+            color: #534C64;
+            text-align: right;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            padding: 15px 0;
+      }
+      .gamer-title-section span{
+          font-size: 25px;
+      } 
+      /* video section */
+      .video-section{
+            max-width: 1400px;
+            margin: 0 auto;
+      } 
+      .video-section h1{
+            text-align: center;
+            font-size: 40px;
+      }
+      .spanh1{
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: Work Sans;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+      }
+      .video-section {
+            text-align: center;
+            padding: 30px 0;
+            color: rgba(83, 76, 100, 1);
+            
+      }
+      .video-box-area{
+            display: flex;
+            gap: 30px;
+            padding-bottom: 30px;
+           
+      }
+      .video-box{
+            padding-top:30px ;
+            width: 23%;
+            text-align: left;
+      
+      }
+      .video-box img{
+            width: 100%;
+            padding-bottom: 20px;
+      }
+      /* ============================== */
+      .main-area{
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 100px 10px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+      }
+      .main-area-title{
+            width: 45%;
+            text-align: end;
+            padding-right: 60px;
+      
+      }
+      .main-area-img{
+            width: 45%;
+            position: relative;
+      
+      }
+      .second-img{
+            position: absolute;
+            margin-top: -300px;
+            margin-right: -200px;
+            margin-left: -105px;
+      }
+      .main-area-title p{
+            font-size: 20px;
+            line-height: 30px;
+            padding: 40px 0;
+      }
+      /* ===================================== */
+      .play-game{
+            max-width: 1400px;
+            margin:  0 auto;
+            padding: 60px 10px;
+            display: flex;
+            gap: 50px;
+      }
+      .play-game-img{
+            width: 60%;
+            position: relative;
+      }
+      .play-game-second-img{
+            position: absolute;
+            margin-top: 404px;
+            margin-left: -209px;
+            padding-bottom: 60px;
+      }
+      .play-game-title{
+            width: 40%;
+            padding-top: 100px;
+      }
+      .play-game-title h1{
+            font-family: Work Sans;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px;
+      }
+      .play-game-title p{
+            color: #534C64;
+            font-family: Work Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px; 
+      }
+      .play-game-title span{
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+      }
+      /* ============================================== */
+      .second-footer-area{
+            background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+            margin-top: 150px; 
+           
+      }
+      .second-footer-section{
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 50px 120px;
+            display: grid;
+            row-gap: 40px;
+            grid-template-columns: repeat(5 ,1fr);
+      }
+      .fooer-box{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            border-radius: 50px;
+            background: #FFF;
+            padding: 8px;
+            border: 2px solid #fff;
+
+      }
+      .fooer-box:hover{
+            border: 2px solid #F948B2;
+
+      }
+      .third-box{
+            border: 2px solid #F948B2;
+      }
+      /* ============================================================== */
+      footer{
+            background: rgba(11, 2, 35, 1);
+            color: #FFF;
+            text-align: center;
+            padding: 50px 0;
+      }
+      .footer-div{
+            max-width: 900px;
+            margin: 0 auto;
+      }
+      .story-div{
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            padding: 30px 0;
+            font-size: 18px;
+      }
+      .icon-box-footer{
+            display: grid;
+            grid-template-columns: repeat(6 ,1fr);
+            padding: 30px 0;
+            font-size: 30px;
+      }
+      .privicey-footer{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            padding-bottom: 30px;
+            font-size: 20px;
+      }
+}
+
