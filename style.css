@@ -134,5 +134,54 @@ body{
 .main-area-title-h1{
       color: #F948B2;
 }
+.img-block{
+   height : 400px
+}
+.vide-box-img{
+      position: relative;
+      overflow: hidden;
+      height : 370px;
+      border-radius: 14px;
+      transition: all 0.3s linear;
+}
+.video-box-description{
+      padding-top: 30px;
+}
+.vide-box-img:hover .video-box-second{
+      margin-top: 0%;
+}
+.video-box-second{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 100%;
+      border-radius: 14px;
+      display: flex;
+      margin-top: 200%;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      border: 4px solid #FF42A5;
+      background-color: #000000b4;
+      transition: all 0.3s linear;
+      z-index: 100;
+}
+
+.hover-btn{
+      width: 48px;
+      height: 48px;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100%;
 
 
+}
+.hover-text{
+      color: #F948B2;
+      margin-top: 80px;
+      position: absolute;
+}
