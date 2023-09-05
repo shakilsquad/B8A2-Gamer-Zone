@@ -136,13 +136,13 @@
             background: #FFF;
             padding: 0 10px;
             border: 2px solid #FFF;
-
-
       }
       .fooer-box:hover{
             border: 2px solid #F948B2;
+            color: #8758F1;
 
       }
+
       .fooer-box img{
             width: 30%;
       }
@@ -152,6 +152,7 @@
       /* ================================================= */
       footer{
             text-align: center;
+            padding-bottom: 40px;
       }
       .story-div{
             display: grid;
@@ -174,7 +175,7 @@
             font-size: 20px;
       }
       .copyright{
-            padding: 50px 0;
+            padding: 30px ;
       }
 }
 
@@ -376,6 +377,7 @@
       }
       .fooer-box:hover{
             border: 2px solid #F948B2;
+            color: #8758F1;
 
       }
       .third-box{
@@ -410,5 +412,6 @@
             padding-bottom: 30px;
             font-size: 20px;
       }
+      /* ====================================== */
 }
 
