@@ -5,6 +5,7 @@
 }
 
 @media screen and (max-width: 575px) {
+      
       .nav-container{
             flex-direction: column;
             gap: 10px;
@@ -151,8 +152,10 @@
       }
       /* ================================================= */
       footer{
+            background: rgba(11, 2, 35, 1);
+            color: #FFF;
             text-align: center;
-            padding-bottom: 40px;
+            padding: 50px 0;
       }
       .story-div{
             display: grid;
